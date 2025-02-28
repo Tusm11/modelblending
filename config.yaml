@@ -1,0 +1,10 @@
+models:
+  - model: D:\Tallo\mergekit\pythia-6.9b
+    parameters:
+      weight: 0.6
+  - model: D:\Tallo\mergekit\pythia-6.9b-deduped
+    parameters:
+      weight: 0.4
+base model: D:\Tallo\mergekit\pythia-6.9b
+merge_method: task_arithmetic
+dtype: bfloat16
